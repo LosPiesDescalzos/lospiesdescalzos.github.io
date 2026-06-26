@@ -1,69 +1,69 @@
 {
-  "name": "To do: Горшочек",
-  "description": "",
+  "name": "Горшочек со свининой",
+  "description": "отличный вариант, когда хочется одновременно вредного и домашнего",
   "preparation_time": {
-    "total": "n минут",
-    "preparation": "n минут",
-    "cooking": "n минут"
+    "total": "65 минут",
+    "preparation": "15 минут",
+    "cooking": "50 минут"
   },
-  "money": "",
-  "difficulty": 0,
+  "money": "600",
+  "difficulty": 2,
   "options": [],
   "ingredients": [
     {
       "name": "картофель",
-      "amount": ""
+      "amount": "250 грамм"
     },
     {
       "name": "свинина",
-      "amount": ""
+      "amount": "400 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "майонез",
+      "amount": "на глаз"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "морковка",
+      "amount": "1 средняя"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "горошек",
+      "amount": "на глаз"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "сыр",
+      "amount": "на глаз"
     },
     {
       "name": "петрушка",
-      "amount": ""
+      "amount": "на глаз"
     }
   ],
   "steps": [
     {
       "step": 1,
-      "instruction": ""
+      "instruction": "нарезать картошку, свинину и мокровку средними кусочками"
     },
     {
       "step": 2,
-      "instruction": ""
+      "instruction": "обжарить все на сковороде на сильном огне"
     },
     {
       "step": 3,
-      "instruction": ""
+      "instruction": "выложить все в горошочек, добавив горошек"
     },
     {
       "step": 4,
-      "instruction": ""
+      "instruction": "сверху посыпать сыром и майонезом"
     },
     {
       "step": 5,
-      "instruction": ""
+      "instruction": "готовить в духовке при 180 градусах 20 минут с крышкой, потом без крышки на 200 градусах с обдувом 5 минут"
     },
     {
       "step": 6,
-      "instruction": ""
+      "instruction": "подавать, посыпав сверху петрушку"
     }
   ],
-  "tips": ["", ""]
+  "tips": []
 }

@@ -67,6 +67,13 @@ const Home = () => {
         >
           перекусы
         </div>
+        <div
+          style={{ backgroundColor: "#7E9794", paddingLeft: "350px" }}
+          className={styles["home-button"]}
+          onClick={() => navigate("/sauces")}
+        >
+          соусы
+        </div>
       </div>
     </div>
   );

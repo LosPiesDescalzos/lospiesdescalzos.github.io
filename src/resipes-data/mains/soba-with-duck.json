@@ -1,69 +1,77 @@
 {
-  "name": "To do: Соба с уткой",
-  "description": "",
+  "name": "Соба с уткой",
+  "description": "нежная утка с гречневой лапшой, овощами и сладким унаги",
   "preparation_time": {
-    "total": "n минут",
-    "preparation": "n минут",
-    "cooking": "n минут"
+    "total": "40 минут",
+    "preparation": "20 минут",
+    "cooking": "20 минут"
   },
-  "money": "",
-  "difficulty": 0,
+  "money": "750",
+  "difficulty": 3,
   "options": [],
   "ingredients": [
     {
-      "name": "",
-      "amount": ""
+      "name": "соба",
+      "amount": "200 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "утка",
+      "amount": "300 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "перец болгарский",
+      "amount": "1 крупный"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "морковь",
+      "amount": "2 небольшие"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "маленькие грибочки",
+      "amount": "150 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "зеленый лук",
+      "amount": "по вкусу"
     },
     {
-      "name": "топинги/начинки",
-      "amount": "тык"
+      "name": "соус унаги",
+      "amount": "по вкусу"
+    },
+    {
+      "name": "соевый соус",
+      "amount": "по вкусу"
+    },
+    {
+      "name": "кунжут",
+      "amount": "по вкусу"
     }
   ],
   "steps": [
     {
       "step": 1,
-      "instruction": ""
+      "instruction": "обжарить утку до румяной корочки, остудить, нарезать"
     },
     {
       "step": 2,
-      "instruction": ""
+      "instruction": "на терке длинной соломкой натереть морковь, также порезать перец, помыть грибочки"
     },
     {
       "step": 3,
-      "instruction": ""
+      "instruction": "все хорошо обжарить на подсолнечном масле"
     },
     {
       "step": 4,
-      "instruction": ""
+      "instruction": "отварить собу и промыть холодной водой"
     },
     {
       "step": 5,
-      "instruction": ""
+      "instruction": "смешать утку, овощи, грибы, добавить унаги и соевый соусы"
     },
     {
       "step": 6,
-      "instruction": ""
+      "instruction": "подавать с кунжутом и зеленым луком"
     }
   ],
-  "tips": ["", ""]
+  "tips": []
 }

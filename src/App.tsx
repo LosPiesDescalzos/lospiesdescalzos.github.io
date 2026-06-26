@@ -9,6 +9,7 @@ import Soups from "./pages/soups";
 import Snacks from "./pages/snacks";
 import Salads from "./pages/salads";
 import Pastas from "./pages/pastas";
+import Sauces from "./pages/sauces/sauces";
 import { Card } from "./components/card";
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/snacks" element={<Snacks />} />
         <Route path="/salads" element={<Salads />} />
         <Route path="/pastas" element={<Pastas />} />
+        <Route path="/sauces" element={<Sauces />} />
       </Routes>
     </BrowserRouter>
   );

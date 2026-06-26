@@ -1,13 +1,13 @@
 {
-  "name": "To do: Карри",
-  "description": "",
+  "name": "Карри",
+  "description": "ароматное карри с кокосовыми сливками",
   "preparation_time": {
-    "total": "n минут",
-    "preparation": "n минут",
-    "cooking": "n минут"
+    "total": "40 минут",
+    "preparation": "20 минут",
+    "cooking": "20 минут"
   },
-  "money": "",
-  "difficulty": 0,
+  "money": "800",
+  "difficulty": 2,
   "options": [],
   "ingredients": [
     {
@@ -41,32 +41,40 @@
     {
       "name": "свежий горошек",
       "amount": "70 грамм"
+    },
+    {
+      "name": "петрушка",
+      "amount": "по вкусу"
+    },
+    {
+      "name": "соль",
+      "amount": "по вкусу"
     }
   ],
   "steps": [
     {
       "step": 1,
-      "instruction": ""
+      "instruction": "бедра неразать небольшими кусочками и обжарить на сковороде"
     },
     {
       "step": 2,
-      "instruction": ""
+      "instruction": "перец и морковь нарезать соломкой и добавить к бедрам"
     },
     {
       "step": 3,
-      "instruction": ""
+      "instruction": "когда все хорошо обжарится добавить кокосовые сливки, томатную пасту, приправу карри и соль"
     },
     {
       "step": 4,
-      "instruction": ""
+      "instruction": "в конце добавить замороженный горошек"
     },
     {
       "step": 5,
-      "instruction": ""
+      "instruction": "промыть и отварить рис"
     },
     {
       "step": 6,
-      "instruction": ""
+      "instruction": "подавать карри с рисом и петрушкой"
     }
   ],
   "tips": ["главное в рисе - чтобы был пропаренный"]

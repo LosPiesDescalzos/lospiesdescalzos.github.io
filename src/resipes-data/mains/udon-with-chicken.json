@@ -1,69 +1,77 @@
 {
-  "name": "To do: Удон с курицей",
-  "description": "",
+  "name": "Удон с курицей",
+  "description": "курочка, пшеничная лапша и больше количество овощей",
   "preparation_time": {
-    "total": "n минут",
-    "preparation": "n минут",
-    "cooking": "n минут"
+    "total": "45 минут",
+    "preparation": "25 минут",
+    "cooking": "20 минут"
   },
-  "money": "",
-  "difficulty": 0,
+  "money": "650",
+  "difficulty": 3,
   "options": [],
   "ingredients": [
     {
-      "name": "",
-      "amount": ""
+      "name": "курица",
+      "amount": "300 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "удон",
+      "amount": "200 грамм"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "баклажан",
+      "amount": "1/2 штуки"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "кабачок",
+      "amount": "1/2 штуки"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "морковка",
+      "amount": "2 маленькие"
     },
     {
-      "name": "",
-      "amount": ""
+      "name": "перец болгарский",
+      "amount": "1 небольшой"
     },
     {
-      "name": "топинги/начинки",
-      "amount": "тык"
+      "name": "лук",
+      "amount": "2 маленькие"
+    },
+    {
+      "name": "соус тирияки",
+      "amount": "по вкусу"
+    },
+    {
+      "name": "зеленый лук",
+      "amount": "по вкусу"
     }
   ],
   "steps": [
     {
       "step": 1,
-      "instruction": ""
+      "instruction": "обжарить курочку до румяной корочки, остудить, нарезать"
     },
     {
       "step": 2,
-      "instruction": ""
+      "instruction": "на терке длинной соломкой натереть морковь, также порезать перец, кабачок и баклажан, лук нарезать полукольцами"
     },
     {
       "step": 3,
-      "instruction": ""
+      "instruction": "все хорошо обжарить на подсолнечном масле"
     },
     {
       "step": 4,
-      "instruction": ""
+      "instruction": "отварить удон и промыть холодной водой"
     },
     {
       "step": 5,
-      "instruction": ""
+      "instruction": "смешать курицу, овощи, тирияки и поженить их"
     },
     {
       "step": 6,
-      "instruction": ""
+      "instruction": "подавать с зеленым луком"
     }
   ],
-  "tips": ["", ""]
+  "tips": []
 }
