@@ -2,10 +2,21 @@ import { IRecipeData } from "../types";
 
 const recipeModules = import.meta.glob('../resipes-data/**/*', { eager: true });
 
-// сосиски в тесте
+
+// добавить раздел кулинарные лайфхаки
+// В фарш добавить ледяную воду - она запечатает жирок, а потом он раскроется 
+// Глянцевый блеск соуса: В самый последний момент, когда соус уже снят с огня, бросьте в него маленький кусочек ледяного сливочного масла (около 10 г) и интенсивно вмешайте его венчиком. Этот прием профессиональных шеф-поваров называется «затягиванием» соуса — он придаст красивый глянец и бархатистую текстуру.
+
+
 // лаваш с рыбкой, твородным сыром и огурчиком
 // чебуреки
-// гранд драник с начинками сверху
+// сборный со скремблом, вообще надо испраивть раздел с яйцами!
+// тост с Утка копченая, хлеб тестовый, авокадо, вяленые томаты, творожный сыр, листья салата
+// измнеить сырные пвалочки со скремблом!
+// гранд драник на мелкой терке с начинками сверху
+// Роти с бананом и сгущенкой
+// овсянка с томатами
+// бутики с ветчиной и сыром н аточтовом + обвалять в яйцах и пожарить
 export const breakfast = {
   sovietSandwiches: recipeModules['../resipes-data/breakfast/soviet-sandwiches.json'],
   milkPorridge: recipeModules['../resipes-data/breakfast/milk-porridge.json'],
@@ -35,10 +46,17 @@ export const breakfast = {
 export const desserts = {
   
 }
-
+// Пицца с маскарпоне
+// пирог с щечками
+// ленивый бешбармак
+// Куриная грудка с соевым соусом как в пинтересте
+// Рыба в духовке с морковью, луком и заправки из яйца, сметаны и сыра 
 // картошка бейби со сметаной, петрушкой, грибами(лисичками) и свининой
-// нут со свининой тушенойё
-// бургеры
+// нут со свининой тушеной
+// щечки в красном вине
+// бургеры с карамелизированным луком(с бальзамическим кремом)
+// костный мозг и стейк
+// бешбармак обычный
 export const mains = {
   lagman: recipeModules['../resipes-data/mains/lagman.json'],
   julienneInDough: recipeModules['../resipes-data/mains/julienne-in-dough.json'],
@@ -66,12 +84,10 @@ export const mains = {
   odjahuri: recipeModules['../resipes-data/mains/odjahuri.json'],
   azu: recipeModules['../resipes-data/mains/azu.json'],
   plov: recipeModules['../resipes-data/mains/plov.json'],
-  pulledPork: recipeModules['../resipes-data/mains/pulled-pork.json'],
-  stewedBeef: recipeModules['../resipes-data/mains/stewed-beef.json'],
   eggplantParmesan: recipeModules['../resipes-data/mains/eggplant-parmesan.json'],
-  stuffedZucchini: recipeModules['../resipes-data/mains/stuffed-zucchini.json'],
-  ossobuko: recipeModules['../resipes-data/mains/ossobuko.json'],  
-  asianPork: recipeModules['../resipes-data/mains/asian-pork.json']
+  stuffed: recipeModules['../resipes-data/mains/stuffed.json'], 
+  asianPork: recipeModules['../resipes-data/mains/asian-pork.json'],
+  chickenChkmeruli: recipeModules['../resipes-data/mains/chicken-chkmeruli.json'],
 }
 
 export const salads = {
@@ -92,11 +108,12 @@ export const salads = {
   bakuSalad: recipeModules['../resipes-data/salads/baku-salad.json'],
   vinegretSalad: recipeModules['../resipes-data/salads/vinegret-salad.json'],
   georgiaSalad: recipeModules['../resipes-data/salads/georgia-salad.json'],
+  chickenWaldorfSalad: recipeModules['../resipes-data/salads/chicken-waldorf.json'],
 }
 
 // баклажаны с творожным сыром и чесноком внутри
 // самса
-// смузи
+// пирожки
 export const snacks = {
   bakedPeppers: recipeModules['../resipes-data/snacks/baked-peppers.json'],
   roastedChickpeas: recipeModules['../resipes-data/snacks/roasted-chickpeas.json'],
@@ -104,8 +121,9 @@ export const snacks = {
   smoothie: recipeModules['../resipes-data/snacks/smoothie.json'],
 }
 
-// сырный суп с грибами - https://eda.rambler.ru/recepty/supy/syrnyy-sup-s-gribami-175462
 
+// чакапули https://amrestogroup.ru/grill-vino-and-khachapuri/menu/supi/chakapuli_d
+// сырный суп с грибами - https://eda.rambler.ru/recepty/supy/syrnyy-sup-s-gribami-175462
 export const soups = {
   borsch: recipeModules['../resipes-data/soups/borsch.json'],
   shchi: recipeModules['../resipes-data/soups/shchi.json'],
@@ -120,6 +138,10 @@ export const soups = {
   pumpkinWithCurryAndShrimp: recipeModules['../resipes-data/soups/pumpkin-with-curry-and-shrimp.json'],
   ministroneWithPesto: recipeModules['../resipes-data/soups/ministrone-with-pesto.json'],
   finnishUha: recipeModules['../resipes-data/soups/finnish-uha.json'],
+  okroshka: recipeModules['../resipes-data/soups/okroshka.json'],  
+  chakapuli: recipeModules['../resipes-data/soups/chakapuli.json'],
+  mushroom: recipeModules['../resipes-data/soups/mushroom.json'],
+  cheeseMashroom: recipeModules['../resipes-data/soups/cheese-mushroom.json'],
 }
 
 export const pastas = {
@@ -137,6 +159,7 @@ export const pastas = {
 
 // бигмак
 // цезарь
+// квасный
 // Чесночный соус(Майонез, молотый чеснок, сливки, соль, сахар, сорбиновая кислота), соус унаги, соус шрирача, перечная смесь шичими
 export const sauces = {
   tartar: recipeModules['../resipes-data/sauces/tartar.json'],
@@ -164,3 +187,4 @@ export const getRecipe= (name: string) => {
 // добавить клевые сайты 
 // https://кухня.рф
 // https://cooklikemary.ru/recipe
+// https://dolcevitablog.ru
